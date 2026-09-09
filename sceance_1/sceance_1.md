@@ -62,7 +62,7 @@ Python
 ### Le shebang
 
 ```python
-#! /usr/bin/env python
+#! /usr/bin/env python3
 ```
 
 Le shebang indique au système quel interpréteur utiliser pour exécuter le script.
@@ -70,8 +70,8 @@ Le shebang indique au système quel interpréteur utiliser pour exécuter le scr
 Il permet notamment d'exécuter directement le fichier comme un programme, à condition de lui donner les droits d'exécution :
 
 ```bash
-chmod +x main.py
-./main.py
+chmod +x <program_name>.py
+./<program_name>.py
 ```
 
 ### Définition d'une fonction principale
