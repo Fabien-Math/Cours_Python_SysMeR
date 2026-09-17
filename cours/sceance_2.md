@@ -41,50 +41,31 @@ Python
   └── ...
 ```
 
-## Les types de données en Python
-
-## Les operateurs en Python
-
-## Les conditions et boucles
-
 ## Les listes
+[Cours listes](cours_listes.py)
 
-## Les fonctions
+## Les dictionnaires
+[Cours dictionnaires](cours_dictionnaires.py)
+[Exercice sur les dictionnaires](Exercices/ex2.md)
+
+## Les imports de modules
+[Cours imports](cours_imports.py)
+
+## NumPy
+[Cours NumPy](cours_numpy.py)
+
+## Matplotlib
+[Cours Matplotlib](demo_matplotlib.py)
 
 ## Formatages
+[Cours formatages](cours_formatages.py)
 
 ## Debug
+[Cours debug](cours_debug.py)
 
 ## Convention de nommage
+[Cours convention de nommage](cours_conventions_nommage.py)
 
-## Un premier programme
+## Suite du TP
 
-### Le shebang
-
-```python
-#! /usr/bin/env python3
-```
-
-Le shebang indique au système quel interpréteur utiliser pour exécuter le script.
-
-Il permet notamment d'exécuter directement le fichier comme un programme, à condition de lui donner les droits d'exécution :
-
-```bash
-chmod +x <program_name>.py
-./<program_name>.py
-```
-
-### Définition d'une fonction principale
-
-```python
-def main():
-    print("Do something")
-
-if __name__ == "__main__":
-    main()
-```
-
-
-### Exercice 1
-
-[Exercice 1](Exercices/exercice_1.md)
+[TP](../TP.md)

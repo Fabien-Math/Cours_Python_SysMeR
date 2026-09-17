@@ -29,6 +29,11 @@ total : 880 euros
 
 ### Bonus
 
+Ajouter au début du programme:
+```python
+import random
+```
+
 1. Utiliser `random.randint(0, 20)` pour créer une réduction aléatoire entre 0 % et 20 %.
 2. Afficher le prix final après réduction.
 3. Afficher tous les produits du panier.
